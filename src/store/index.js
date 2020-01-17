@@ -1,7 +1,7 @@
 import rootReducer from "./reducers";
 import { createStore } from "redux";
 
-const INITIAL_STATE = [
+const SEAT_CONFIG = [
   {
     category: "CLUB",
     price: 250,
@@ -36,5 +36,5 @@ const INITIAL_STATE = [
   }
 ];
 
-const store = createStore(rootReducer, INITIAL_STATE);
+const store = createStore(rootReducer);
 export default store;
