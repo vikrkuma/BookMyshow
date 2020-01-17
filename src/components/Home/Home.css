@@ -1,0 +1,38 @@
+.Home {
+  text-align: center;
+}
+
+.Home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.Home-no-seats-input {
+  margin: 32px;
+  padding: 16px;
+  background: transparent;
+  border: 0;
+  border-bottom: 3px solid orange;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.Home-Submit {
+  padding: 24px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 300px;
+  border-radius: 5px;
+  background: green;
+  cursor: pointer;
+}

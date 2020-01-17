@@ -1,0 +1,1 @@
+const seats = (state, action) => {};
